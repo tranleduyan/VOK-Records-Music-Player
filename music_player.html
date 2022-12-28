@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOK Records</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="content-wrapper">
+            <div class="wrapper">
+                <div class="nav-wrapper">
+                    <img src="images/voklogo.png" alt="logo" class="nav-logo">
+                    <div class="name" href="#">VOK RECORDS</div>
+                    <div class="about">
+                        <p>"We hope you enjoy what you are listening!"</p>
+                    </div>
+                </div>
+                <div class="song-wrapper">
+                    <div class="song-banner"></div>
+                    <div class="content">
+                        <div class="song-info">
+                            <div class="info">
+                                <div class="current-play">Playing</div>
+                                <div class="song-name">Track Name</div>
+                                <div class="song-artist">Track artist</div>
+                            </div>
+                            <div class="play-pause-container">
+                                <div class="play-pause-song" onClick="playpauseSong()">
+                                    <i class="fas fa-play-circle fa-5x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <div class="slider-container" id="slider-container-time">
+                                <div class="current-time">00:00</div>
+                                <input type="range" min="1" max="100" value="0" class="time-change-slider" onchange="changeTo()">
+                                <div class="total-time">00:00</div>
+                            </div>
+                            
+                            <div class="buttons">
+                                <div class="slider-container">
+                                    <i class="fas fa-volume-down fa-1x"></i>
+                                    <input type="range" min="1" max="100" value="99" class="volume-slider" onchange="setVolume()">
+                                    <i class="fas fa-volume-up fa-1x"></i>
+                                </div>
+                                <div class="random-song" onClick="randomSong()">
+                                    <i class="fas fa-random fa-1x" title="random"></i>
+                                </div>
+                                <div class="prev-song" onClick="prevSong()">
+                                    <i class="fas fa-step-backward fa-1x"></i>
+                                </div>
+                                <div class="next-song" onClick="nextSong()">
+                                    <i class="fas fa-step-forward fa-1x"></i>
+                                </div>
+                                <div class="repeat-song" onClick="repeatSong()">
+                                    <i class="fas fa-repeat fa-1x" title="repeat"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="playlist-wrapper">
+                    <div class="playlist-title">Playlist</div>
+                </div>
+            </div>
+            <div class="description-wrapper">
+                <div class="artist-description-wrapper">
+                    <div class="artist-title">
+                        Artist
+                    </div>
+                    <div id="artist-info-wrapper">
+                        
+                    </div>
+                </div>
+                <div id="song-description-wrapper">
+                    <div id="song-description">
+                    </div>
+                </div>
+                <div class="lyrics-wrapper">
+                    <div class="lyrics-title">
+                        Lyrics
+                    </div>
+                    <div id="lyrics">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
