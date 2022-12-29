@@ -1,4 +1,4 @@
-# VOK Records: Music Player
+# VOK Records Music Player
 # Author/Developer: Le Duy An Tran
 ![1](https://user-images.githubusercontent.com/114903308/209885104-0d74ebbc-275d-4c00-bbc2-81db57e31715.png)
 # About
