@@ -27,6 +27,7 @@ The songs will have lyrics written for everyone including users and fans. Most o
 ![4](https://user-images.githubusercontent.com/114903308/209885118-d3c7f649-6760-4c0c-8ffa-9a3b81592b2d.png)
 ## 4. Mobile Compatible:
 The music player is mobility, and can be easily accessed online. Users can use as a mobile music player for playing VOK Records songs. Moreover, it is designed to be as user friendly as possible with new and thoughtful UI designs and colors. On mobile, the music player will not show the other song's description as it would be a reduntdant for mobility and convenience.
+
 <img align="left"  src="https://user-images.githubusercontent.com/114903308/209885121-e8b42ac6-a79d-4855-8c38-c208bc50207c.png"><img align="right" src="https://user-images.githubusercontent.com/114903308/209885124-6903dfd1-068d-4db0-977d-d502be0c6c1e.png">
 
 ###### Responsive:
